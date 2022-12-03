@@ -15,11 +15,20 @@ ADD SMTH ELSE
 * Team playing
 * Hard working
 * Desire to develop
+# Career
+* Technician in Electrical Department
+* Power engineer in Operating Department 
 # Skills
 * JavaScript(Fundamentals)
 * Python(Fundamentals)
 * HTML+CSS(Basics)
 * Photoshop
 * Git/GitHub
-
+# Code Example
+```
+some code
+```
+# Language
+* Russian - native speaker
+* English - B2(StreamLine course)
 
