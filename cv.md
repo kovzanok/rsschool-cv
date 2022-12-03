@@ -8,8 +8,7 @@
 * GitHub: [kovzanok](https://github.com/kovzanok)
 * Discord: AlexKovzan(kovzanok)#5582
 # About myself
-I am 22 years old. I've graduated from Belarusian National Technical University this summer. Despite being power engineer, I also wanna try myself in Front-end development. During my university studying I've gain some basic knowledge of algorithms and coding itself.
-<!--ADD SMTH ELSE -->
+I am 22 years old. I've graduated from Belarusian National Technical University this summer. Despite being power engineer, I also wanna try myself in Front-end development. During my university studying I've gain some basic knowledge of algorithms and coding itself. I chose Front-end development because of opportunity to be creative in problem solving.
 ### Strengths:
 * Quick learner
 * Team playing
@@ -52,6 +51,7 @@ function rot13(message) {
   }
   return cipher;
 }
+```
 # Language
 * Russian - native speaker
 * English - B2(StreamLine course)
