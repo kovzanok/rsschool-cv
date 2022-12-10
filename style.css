@@ -42,13 +42,17 @@
 
 .contacts-list{
     list-style: none;
+    padding-left: 60px;
 }
 
 .contacts-link{
     text-decoration: none;
 }
 
-
+.skills-list{
+    list-style: none;
+    padding-left: 60px;
+}
 .footer{
     border: 5px solid red;
 }
