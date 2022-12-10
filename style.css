@@ -27,6 +27,14 @@
     border: 5px solid yellow;
 }
 
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section{
+    width: 50%;
+}
 .footer{
     border: 5px solid red;
 }
