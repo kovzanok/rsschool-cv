@@ -35,6 +35,18 @@
 .section{
     width: 50%;
 }
+
+.section-title{
+    padding-left: 40px;
+}
+
+.contacts-list{
+    list-style: none;
+}
+
+.contacts-link{
+    text-decoration: none;
+}
 .footer{
     border: 5px solid red;
 }
