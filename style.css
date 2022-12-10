@@ -10,10 +10,28 @@
     border: 5px solid green;
 }
 
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link{
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+}
+
 .main{
     border: 5px solid yellow;
 }
 
 .footer{
     border: 5px solid red;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
 }
