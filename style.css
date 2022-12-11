@@ -71,6 +71,15 @@
     text-decoration: none;
 }
 
+.projects-list{
+    list-style: none;
+    padding-left: 60px;
+}
+
+.projects-link{
+    text-decoration: none;
+}
+
 .education-list{
     list-style: none;
     padding-left: 60px;
@@ -78,6 +87,11 @@
 
 .english-list{
     list-style: none;
+    padding-left: 60px;
+}
+
+.english-link{
+    text-decoration: none;
 }
 
 .footer{
