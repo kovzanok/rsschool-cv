@@ -8,6 +8,7 @@
     font-size: 17px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.8;
+    background-color: #eedfdf;
     
 }
 .header{
@@ -27,6 +28,10 @@
     text-decoration: none;
 }
 
+.nav-link:hover{
+    text-decoration: underline  ;
+}
+
 .main{
     border: 5px solid yellow;
 }
@@ -34,6 +39,7 @@
 .main-container{
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .section{
@@ -41,8 +47,10 @@
     
 }
 
+
 .section-title{
     padding-left: 40px;
+    background: linear-gradient(90deg, #eda15a 0 5%, #e5caca 5% 100%);
 }
 
 .profile-pic{
@@ -52,6 +60,7 @@
 .contacts-list{
     list-style: none;
     padding-left: 60px;
+    
 }
 
 .contacts-link{
@@ -101,6 +110,7 @@
 
 .footer{
     border: 5px solid red;
+    
 }
 
 .logo{
@@ -121,5 +131,6 @@
 
 .container{
     max-width: 1000px;
+    
     margin: 0 auto;
 }
