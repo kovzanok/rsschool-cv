@@ -15,7 +15,7 @@
     
 }
 .header{
-    border: 5px solid green;
+    
     background-color: #e89e9e;
     
 }
@@ -56,7 +56,7 @@
 }
 
 .main{
-    border: 5px solid yellow;
+    
 }
 
 .main-container{
@@ -74,14 +74,35 @@
     display: flex;
     justify-content: space-around;
     width: 100%;
-    padding: 50px 30px 35px;
-    border-bottom: 15px solid #d7d1c9;
+    padding: 30px 30px 35px;
+    border-bottom: 7px solid #e7b1b1;
 }
 
 .section-title{
     padding-left: 40px;
     
     background: linear-gradient(90deg, #eda15a 0 5%, #e5caca 5% 100%);
+}
+
+.profile-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main-title{
+    font-size: 50px;
+    font-weight: normal;
+    letter-spacing: 10px;
+}
+
+.subtitle{
+    font-weight: normal;
+    letter-spacing: 7px;
+    margin-top:0;
 }
 
 .list-title{
@@ -91,7 +112,9 @@
 }
 
 .profile-pic{
-    border: 5px solid black;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px black;
+    float:left;
 }
 
 .contacts-list{
@@ -146,7 +169,7 @@
 }
 
 .footer{
-    border: 5px solid red;
+    
     background-color: #e89e9e;
     
 }
