@@ -127,6 +127,53 @@
     text-decoration: none;
 }
 
+
+.contacts-item{
+    padding-left:25px;
+}
+
+.contacts-item:nth-child(1){
+    background-image: url(./assets/world.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.contacts-item:nth-child(2){
+    background-image: url(./assets/phone.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.contacts-item:nth-child(3){
+    background-image: url(./assets/email.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.contacts-item:nth-child(4){
+    background-image: url(./assets/discord.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.contacts-item:nth-child(5){
+    background-image: url(./assets/github.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.contacts-item:nth-child(6){
+    background-image: url(./assets/telegram.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 .skills-list{
     list-style: none;
     padding-left: 60px;
