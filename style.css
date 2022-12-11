@@ -62,13 +62,18 @@
 .main-container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     
 }
 
 .section{
-    width: 50%;
-    
+    width: calc(50% - 10px);
+    padding: 10px;
+    border-bottom: 1px solid #e7b1b1;
+    padding-bottom: 20px;
 }
+
+
 
 .section-profile{
     display: flex;
@@ -81,7 +86,7 @@
 .section-title{
     padding-left: 40px;
     
-    background: linear-gradient(90deg, #eda15a 0 5%, #e5caca 5% 100%);
+    background: linear-gradient(90deg, #eda15a 0 4%, #e5caca 4% 100%);
 }
 
 .profile-title{
@@ -97,6 +102,7 @@
     font-size: 50px;
     font-weight: normal;
     letter-spacing: 10px;
+    margin-bottom: 10px;
 }
 
 .subtitle{
@@ -125,6 +131,7 @@
 
 .contacts-link{
     text-decoration: none;
+    color: black;
 }
 
 
@@ -174,13 +181,30 @@
     background-position: left;
 }
 
+.p{
+    text-indent: 20px;
+    text-align: justify;
+}
 .skills-list{
     list-style: none;
     padding-left: 60px;
+    
+
+}
+
+.skills-item{
+    background-image: url(./assets/dot.png);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
 }
 
 .code{
     font-size: 15px;
+    background-color: #f5d5d5;
+    border: 5px solid #e89e9e;
+    border-radius: 10px;
 }
 
 .courses-list{
@@ -188,8 +212,18 @@
     padding-left: 60px;
 }
 
+.courses-item{
+    background-image: url(./assets/dot.png);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
+    
+}
+
 .courses-link{
     text-decoration: none;
+    color: black;
 }
 
 .projects-list{
@@ -213,6 +247,7 @@
 
 .english-link{
     text-decoration: none;
+    color: black;
 }
 
 .footer{
@@ -240,7 +275,7 @@
 
 
 .container{
-    max-width: 1400px;
+    max-width: 1440px;
     
     margin: 0 auto;
 }
