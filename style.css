@@ -7,7 +7,7 @@
     justify-content: space-between;
     font-size: 17px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.5;
+    line-height: 1.8;
     
 }
 .header{
@@ -53,12 +53,6 @@
     text-decoration: none;
 }
 
-.world-logo{
-    width: 20px;
-    height: 20px;
-    padding-top: 3px;
-}
-
 .skills-list{
     list-style: none;
     padding-left: 60px;
@@ -67,11 +61,30 @@
 .code{
     font-size: 15px;
 }
+
+.courses-list{
+    list-style: none;
+    padding-left: 60px;
+}
+
+.courses-link{
+    text-decoration: none;
+}
+
+.education-list{
+    list-style: none;
+    padding-left: 60px;
+}
+
+.english-list{
+    list-style: none;
+}
+
 .footer{
     border: 5px solid red;
 }
 
 .container{
-    max-width: 1280px;
+    max-width: 1000px;
     margin: 0 auto;
 }
