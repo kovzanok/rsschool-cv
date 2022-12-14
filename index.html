@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CV</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+          </ul>
+        </nav>
+      </div>
+      
+    </header>
+    <main class="main">
+      <div class="container main-container">
+        <section class="section section-profile" id="profile">
+          <img src="./assets/profile_pic.jpg" alt="Profile picture" class="profile-pic">
+          <div class="profile-title">
+            <h1 class="main-title">Alex Kovzan</h1>
+            <h2 class="subtitle">Power engineer</h2>
+          </div>
+          
+          
+        </section>
+        <section class="section" id="contacts">
+          <h2 class="section-title list-title">
+            Contacts
+          </h2>
+          <ul class="contacts-list">
+            <li class="contacts-item">Location: Belarus, Minsk</li>
+            <li class="contacts-item">Phone: +375(29)165-41-95</li>
+            <li class="contacts-item">E-mail: alexkovzanok@gmail.com</li>
+            <li class="contacts-item">Discord: AlexKovzan(@kovzanok)#5582</li>
+            <li class="contacts-item"><a class="contacts-link" href="https://github.com/kovzanok" target="_blank">GitHub: kovzanok</a></li>
+            <li class="contacts-item"><a class="contacts-link" href="https://t.me/gogozucchina" target="_blank">Telegram: @gogozucchina</a></li>
+          </ul>
+        </section>
+        <section class="section" id="summary">
+          <h2 class="section-title">Summary</h2>
+          <p class="p">I am 22 years old. I've graduated from Belarusian National Technical University this summer. Despite being power engineer, I also wanna try myself in Front-end development. During my university studying I've gain some basic knowledge of algorithms and coding itself. I chose Front-end development because of opportunity to be creative in problem solving.</p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title list-title">Skills</h2>
+          <ul class="skills-list">
+            <li class="skills-item">Quick learner</li>
+            <li class="skills-item">Team playing</li>
+            <li class="skills-item">Hard working</li>
+            <li class="skills-item">Desire to develop</li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code</h2>
+          <!--<p class="p">6 kyu kata on Code Wars: Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number. You can guarantee that input is non-negative.</p>-->
+          <pre class="code">
+          <code >var countBits = function(n) {
+            return n.toString(2).split('').filter(number=>+number==1).length;
+          };</code>
+          </pre>
+        </section>
+        <section class="section" id="courses">
+          <h2 class="section-title list-title">Courses</h2>
+          <ul class="courses-list">
+            <li class="courses-item"><a href="https://learn.javascript.ru/" class="courses-link" target="_blank">JavaSript</a></li>
+            <li class="courses-item"><a href="https://code-basics.com/ru/languages/html" class="courses-link" target="_blank">HTML</a>&<a href="https://code-basics.com/ru/languages/css" class="courses-link">CSS</a></li>
+            <li class="courses-item"><a href="https://stepik.org/course/63085/promo" class="courses-link" target="_blank">Python</a></li>
+            <li class="courses-item"><a href="https://stepik.org/course/63054/promo" class="courses-link" target="_blank">SQL</a></li>
+          </ul>
+        </section>
+        <section class="section" id="projects">
+          <h2 class="section-title list-title">Projects</h2>
+          <ul class="projects-list">
+            <li><a href="https://kovzanok.github.io/rsschool-cv/" class="projects-link" target="_blank">CV</a></li>
+          </ul>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title list-title">Education</h2>
+          <ul class="education-list">
+            <li>Belarusian National Technical University,<br>Power Engineering faculty</li>
+          </ul>
+        </section>
+        <section class="section" id="english">
+          <h2 class="section-title list-title">English</h2>
+          <ul class="english-list">
+            <li><a href="https://str.by/" class="english-link" target="_blank">B2 - Upper-Intermediate(StreamLine course)</a></li>
+          </ul>
+
+        </section>
+      </div>
+
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-left">
+          <a href="https://github.com/kovzanok" target="_blank"><img src="./assets/github.png" alt="GitHubLogo" class="logo"></a> 
+          <a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school.svg" alt="RSSchoolLogo" class="logo"></a>
+        </div>
+        <div class="footer-right">
+          &copy;2022, by kovzanok
+        </div>
+        
+      </div>
+
+    </footer>
+  </body>
+</html>
